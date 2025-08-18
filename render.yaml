@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: main-project-api
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
