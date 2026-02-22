@@ -5,7 +5,7 @@ FROM tomcat:10.1-jdk21-openjdk
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 
-COPY MainProjectApis3.0.war/usr/local/tomcat/webapps/ROOT.war
+COPY MainProjectApis2.2.war /usr/local/tomcat/webapps/ROOT.war
 
 
 EXPOSE 8080
